@@ -1,0 +1,39 @@
+.mini-loading {
+	width: 100%;
+	height: 118rpx;
+	margin: 0 auto;
+}
+
+.mini-loading image {
+	width: 210rpx;
+	height: 118rpx;
+}
+
+.nomore {
+	height: 120rpx;
+	line-height: 120rpx;
+	width: 100%;
+	text-align: center;
+	color: #b2b2b2;
+	position: relative;
+}
+.nomore::before {
+	content: '';
+	width: 80rpx;
+	height: 2rpx;
+	position: absolute;
+	background-color: #b2b2b2;
+	top: 50%;
+	left: 50%;
+	margin-left: -174rpx;
+}
+.nomore::after {
+	content: '';
+	width: 80rpx;
+	height: 2rpx;
+	position: absolute;
+	background-color: #b2b2b2;
+	top: 50%;
+	left: 50%;
+	margin-left: 84rpx;
+}
