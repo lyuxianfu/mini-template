@@ -74,7 +74,7 @@
 
 <script>
 //todo api的验证
-import apis from '../api/index.js';
+import apis from '@/api/index.js';
 export default {
 	name: 'ZList',
 	props: {
