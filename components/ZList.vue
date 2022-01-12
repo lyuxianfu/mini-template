@@ -223,6 +223,7 @@ export default {
 		};
 	},
 	created() {
+		this.pagesize = this.formData.pagesize ?? 10;
 		this.adjust();
 	},
 	mounted() {
