@@ -306,7 +306,7 @@ export default {
 			this.tempPage = this.page;
 			this.page = 1;
 			if(this.result.length > 10) {
-				this.pagesize = this.page * 10;
+				this.pagesize = this.tempPage * 10;
 			}
 			//todo  
 			this.renderType = 'change';
